@@ -4,7 +4,7 @@ This proyect is a virtual SCRUM program. (Obviously) |:D
 
 ![capture of the program 1](Files/work1.png "CAPTURE")
 
-### It will have ###
+## It will have ##
 
 -Account access.
 
@@ -23,6 +23,7 @@ This proyect is a virtual SCRUM program. (Obviously) |:D
 ![capture of the program 1](Files/work1b.png "CAPTURE")
 
 ##How do I use it?
+
 Try it downloading the '.jar' file in the 'Try' folder.
 
 or
@@ -31,18 +32,19 @@ clone de proyect
 
 remove all the '.class' files (yes, i won't delete for you! :P )
 
+~~~
 [Linux]$rm *.class    
 
 $make
 
 $java main
+~~~
 
 
 
+## by ##
 
-## by##
-
-* Brian A. Chacón
+*** Brian A. Chacón ***
 
 ## Conctacto ##
 
