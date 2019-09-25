@@ -15,6 +15,7 @@ This proyect is a virtual SCRUM program. (Obviously) |:D
  *    worker : can see its own progress and general view.
  
 -Two modes:
+
 *     Local  mode: it uses local files to fill the boards.
 
 *     Remote mode: connection to a data base to fill the boards.
@@ -31,6 +32,8 @@ or
 clone de proyect 
 
 remove all the '.class' files (yes, i won't delete for you! :P )
+
+![youtube](https://www.youtube.com/watch?v=Mh0Of4LzEfk)
 
 ~~~
 [Linux]$rm *.class    
