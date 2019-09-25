@@ -31,7 +31,7 @@ or
 
 clone de proyect 
 
-remove all the '.class' files (yes, i won't delete for you! :P )
+remove all the '.class' files (yes, i won't delete them for you! :P )
 
 ![youtube](https://www.youtube.com/)
 
