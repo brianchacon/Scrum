@@ -22,7 +22,7 @@ This proyect is a virtual SCRUM program. (Obviously) |:D
 -A personal chart for each 'worker' and a general one.
 ![capture of the program 1](Files/work1b.png "CAPTURE")
 
-##How do I use it?
+## How do I use it? ##
 
 Try it downloading the '.jar' file in the 'Try' folder.
 
@@ -44,7 +44,7 @@ $java main
 
 ## by ##
 
-*** Brian A. Chacón ***
+***Brian A. Chacón***
 
 ## Conctacto ##
 
