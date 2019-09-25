@@ -8,8 +8,8 @@ public class main{
             LogIn vent1=new LogIn();
             Results vent2;
             //ventana1.
-            if(vent1.validated)
-                vent2 = new Results(vent1.result);
+            //if(vent1.validated)
+                vent2 = new Results(vent1.result,!vent1.validated);
             
             /*setVentana ven = new setVentana();
             String s = null; 
