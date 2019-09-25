@@ -1,50 +1,30 @@
-# Scrum #
+# Todo list #
 
-This proyect is a virtual SCRUM program. (Obviously) |:D 
 
-![capture of the program 1](Files/work1.png "CAPTURE")
 
-## It will have ##
+### Sobre que va esteproyecto ###
 
--Account access.
+Este proyecto es una lista de TODOs, utilizado para organizar tareas en: "TODO", "En proceso" y "Listo".
+Esta división permite ver el proceso y evolución de las tareas a realizar. 
+Este programa es la base de un Scrum virtual, que estoy realizando( por si te lo preguntas).
 
--Different levels access:
-
- *    master : can see the progress from each worker, general view and change task assignations.
+##Como utilizarlo?
+  Crear un nuevo proyecto.
+  Dividir tareas a realizar y colocar los datos en una nueva tarea.
+  Debes indicar la descripción de la tarea a realizar.
+  Opcionalmente puedes agregar tiempos para el checkeo final(#NO IMPLEMENTADO AUN#), asignar a una persona, indicar un color.  
+     
  
- *    worker : can see its own progress and general view.
- 
--Two modes:
-*     Local  mode: it uses local files to fill the boards.
-
-*     Remote mode: connection to a data base to fill the boards.
-
--A personal chart for each 'worker' and a general one.
-![capture of the program 1](Files/work1b.png "CAPTURE")
-
-## How do I use it? ##
-
-Try it downloading the '.jar' file in the 'Try' folder.
-
-or
-
-clone de proyect 
-
-remove all the '.class' files (yes, i won't delete for you! :P )
-
-~~~
-[Linux]$rm *.class    
-
-$make
-
-$java main
-~~~
 
 
+### Objetivos ###
+  Este proyecto es un proyecto personal, para la practica en Java, y sus 
+interfaces.
+  Cualquier sugerencia es bien recivida, y si quieres usar este proyecto eres 
+  libre de hacerlo, solo mencioname y muestrame que has hecho con el.
+## Creado por:##
 
-## by ##
-
-***Brian A. Chacón***
+* Brian A. Chacón
 
 ## Conctacto ##
 
