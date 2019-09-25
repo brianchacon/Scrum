@@ -16,9 +16,9 @@ This proyect is a virtual SCRUM program. (Obviously) |:D
  
 -Two modes:
 
-*     Local  mode: it uses local files to fill the boards.
+ *    Local  mode: it uses local files to fill the boards.
 
-*     Remote mode: connection to a data base to fill the boards.
+ *    Remote mode: connection to a data base to fill the boards.
 
 -A personal chart for each 'worker' and a general one.
 ![capture of the program 1](Files/work1b.png "CAPTURE")
@@ -33,7 +33,7 @@ clone de proyect
 
 remove all the '.class' files (yes, i won't delete for you! :P )
 
-![youtube](https://www.youtube.com/watch?v=Mh0Of4LzEfk)
+![youtube](https://www.youtube.com/)
 
 ~~~
 [Linux]$rm *.class    
