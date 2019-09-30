@@ -11,6 +11,9 @@ CLASSES = \
 		lienzo.java \
 		archivo.java \
 		Estilo.java \
+		LogIn.java \
+		read.java \
+		Profile.java \
 		newBox.java 
 
 default: classes

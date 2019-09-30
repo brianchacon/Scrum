@@ -5,7 +5,11 @@ public class main{
         EventQueue.invokeLater(new Runnable() {
           @Override
           public void run() {
-            scrum ventana1=new scrum();
+            LogIn vent0 = new LogIn();
+            
+            scrum ventana1;
+         
+            ventana1 = new scrum(vent0.result,vent0.name,vent0.validated);
             /*setVentana ven = new setVentana();
             String s = null; 
             ven.abrir();

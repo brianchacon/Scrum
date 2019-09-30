@@ -9,7 +9,7 @@ import java.awt.BorderLayout;
 import java.awt.Image;
 import java.awt.Cursor;
 class scrum extends JFrame implements ActionListener{
-    int width = 1600;//800;
+    int width = 1530;//1600;//800;
     int height = 850;//600;
     int heightMenu = 50;
     int widthPanel = width/3;
@@ -55,8 +55,14 @@ class scrum extends JFrame implements ActionListener{
     Color colorMenu = new Color(255,255,255);
     Color colorBorde = new Color(198,198,198);
     int margin_left_panel = 5;
+    String USER_NAME = "UNKNOWN";
+    String PATH ="";
     
-    public scrum(){
+    public scrum(String result, String name,boolean notCloseWindows){
+        if(!notCloseWindows)
+           System.exit(0);
+        USER_NAME = name;
+        //PATH = result;
         archivo a = new archivo();
         recientes = a.load_recientes();
         System.out.println("reciente inicial: "+recientes[recientes.length-1].clave);
@@ -195,7 +201,7 @@ class scrum extends JFrame implements ActionListener{
         panelTituloDos.setLayout(null);
         panelTituloTres.setLayout(null);
         
-        
+        panelMenu.add(new Profile(USER_NAME,width));
         panelMenu.add(botonUnoAdd);
         panelMenu.add(botonUnoDel);  
         panelMenu.add(botNuevo);
